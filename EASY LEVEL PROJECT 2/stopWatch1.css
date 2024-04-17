@@ -1,0 +1,52 @@
+body{
+   font-family: 'lato', 'sans-serif';
+    background-color:black ;
+}
+
+.container{
+    text-align: center;
+    margin-left: 30%;
+    position: relative;
+    top: 0px; right: 0px; bottom: opx; left: 70px;
+    width: 450px;
+    border: 2px solid white;
+    padding: 22px;
+    /* margin-top: -3%; */
+}
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-right: 100px;
+    font-weight: 900;
+   
+}
+
+.num{
+    display: flex;
+    color: white;
+    margin-left: 5%;
+
+}
+
+h2{
+    font-size: 60px;
+    margin-inline: 9px;
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    background-color: rgba(255, 89, 0, 0.826);
+    color: white;
+    border: 2px solid rgba(255, 89, 0, 0.826);
+    border-radius: 10px;
+    font-size: 18px;
+    margin-inline: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid white;
+    background-color: rgb(125, 115, 3);
+}
