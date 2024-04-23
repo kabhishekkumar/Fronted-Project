@@ -1,0 +1,1013 @@
+    body{
+        background-color: black;    
+    height: 100%;
+    width: 100%;
+    }
+    .song1{
+        position: fixed;
+        top: 7px;
+        background-color: rgb(27, 26, 26);
+        height: 180px;
+        width: 340px;
+    border-radius: 10px;
+    }
+
+    .song2{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .fa-brands{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    }
+
+    .spotify{
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+        margin-left: 4px;
+        margin-top: 15px;
+    }
+
+    .song3{
+        display: flex;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .fa-solid{
+    color: white;
+    font-size: 25px;
+    }
+
+    .home{
+    color: white;
+    font-size: 18px;
+    margin-top:6px;
+    margin-left: 25px;
+    }
+
+
+    .song4{
+        display: flex;
+        margin-left: 33px;
+    }
+
+
+    .search{
+    color: rgb(177, 172, 172);
+    font-size: 18px;
+    margin-top: 2px;
+    margin-left: 25px;
+    }
+
+    .nave{
+        position: fixed;
+        left: 360px;  top: 9px;
+        border-radius: 10px;
+        background-color: rgb(27, 26, 26);
+        height: 65px;
+        width: 1150px;
+        display: flex;
+        z-index: 2;
+    }
+
+    .nave1{
+    margin-top: 12px;
+    margin-left: 20px;
+    }
+
+
+    .button{
+    font-size: 30px;
+    color:rgb(177, 172, 172);
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    
+    }
+
+    .button1{
+        font-size: 30px;
+        margin-left: 10px;
+        color:rgb(177, 172, 172);
+        background-color: black;
+        border: 2px solid black;
+        border-radius: 100px;
+    }
+
+    .nave2{
+        position: absolute;
+    right: 20px;
+    top: 7px;
+    }
+
+    .button2{
+        font-size: 18px;
+        height: 50px;
+        width: 100px;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: rgb(27, 26, 26);
+    color: white;
+    border: none;
+
+    }
+
+    .button3{
+        height: 50px;
+        width: 100px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 60px;
+
+    }
+
+    .live{
+        position: fixed;
+        top: 195px;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(27, 26, 26);
+        height: 500px;
+        width: 340px;
+    }
+
+    .icon{
+        display: flex;
+        position: absolute;
+        top: -8px; left: 30px;
+    }
+
+    .A{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(177, 172, 172);
+    }
+
+    .A1{
+    font-size: 32px;
+    color: rgb(177, 172, 172);
+    margin-top: 23px;
+    font-weight: bolder;
+
+    }
+
+    .lib{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(177, 172, 172);
+    margin-top: 30px;
+    margin-left: 20px;
+
+    }
+
+    .Your{
+    height: 30px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 110px;
+    border: none;
+    background-color: rgb(27, 26, 26);
+    color: rgb(177, 172, 172);
+    border-radius: 50px;
+    }
+
+    /* problem */
+    .create-playlist{
+        background-color: #302f2f;
+        padding: 30px 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+
+    .scroll{
+        background-color: #302f2f;
+        height: 190px;
+        overflow-y: auto;
+        margin-top: 70px;
+        width: 325px;
+        margin-left: 8px;
+    
+    }
+    .scroll::-webkit-scrollbar{
+        background-color: #302f2f;
+    }
+    .scroll::-webkit-scrollbar-thumb{
+        width: 10px;
+    }
+    .scroll:hover::-webkit-scrollbar-thumb{
+        background-color: #9a9494;
+        width: 5px;
+    }
+    .playlist1{
+        margin-top: -10px;
+        color: white;
+    }
+    .playlist2{
+        border-radius: 30px;
+        height: 35px;
+        
+    }
+    
+
+    
+    /* problems */
+
+    .legal{
+        display: flex;
+    }
+
+    .center{
+        font-size: 14px;
+        color: white;
+        margin-left: 16px;
+        margin-top: 40px;
+    
+    
+    }
+
+    .cook{
+        display: flex;
+    }
+
+    .about{
+        font-size: 14px;
+        color: white;
+        margin-left: 16px;
+        margin-top: 2px;
+    }
+
+    .abs{
+        color: white;
+        margin-left: 16px;
+    }
+        
+    .pro{
+        margin-top: -1px;
+    }
+
+    .earth{
+        margin-top: 40px;
+        margin-left: 16px;
+    }
+
+    .earth1{
+        height: 30px;
+        width: 100px;
+        border: 1px solid rgb(177, 172, 172);
+        color: white;
+        background-color: rgb(35, 34, 34);
+        border-radius: 30px;
+    }
+
+    .abhi{
+        position: absolute;
+        top: 74px; left: 360px;
+        border: none;
+        background-color: rgb(39, 37, 37);
+        width: 1150px;
+        height: 2350px;
+        z-index: 1;
+
+    }
+
+    /* first row */
+
+    .charger{
+        font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .charger:hover{
+        text-decoration: underline;
+    }
+
+    .popular{
+        display: inline-block;
+        height: 250px;
+        width: 185px;
+        position: relative;
+        left: 10px;
+        border-radius: 5px;
+
+    }
+
+    .popular:hover{
+        background-color: rgb(27, 26, 26);
+    }
+
+    .artist{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(arjit\ singh.jpeg);
+        background-size: cover;
+    }
+
+    .artist1{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(a.r\ rahman.jpeg);
+        background-size: cover;
+    }
+
+    .artist2{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(vishal\ mishara.jpeg);
+        background-size: cover;
+    }
+
+    .artist3{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(pritam\ singer.jpeg);
+        background-size: cover;
+    }
+
+    .artist4{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(anirudh.jpeg);
+        background-size: cover;
+    }
+
+    .artist5{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 60%;
+        background-image: url(vishal\ shekhar.jpeg);
+        background-size: cover;
+    }
+
+    .ab{
+       margin-bottom: -10px;
+        margin-left: 13px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+
+    .bc{
+        margin-left: 13px;
+        color: rgb(177, 172, 172);
+
+    }
+
+    /* css of row two */
+
+    .pen{
+        font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .pen:hover{
+       text-decoration: underline;
+    }
+
+
+    .Mishra{
+        display: inline-block;
+        height: 250px;
+        width: 185px;
+        position: relative;
+        left: 10px;
+        border-radius: 5px;
+    }
+
+    .Mishra:hover{
+        background-color: rgb(27, 26, 26);
+    }
+
+    .still{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(animals.jpeg);
+        background-size:  cover;
+
+    }
+
+    .still1{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(still\ rollin.jpeg);
+        background-size:  cover;
+
+    }
+
+    .still2{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(moosetape.jpeg);
+        background-size:  cover;
+
+    }
+
+    .still3{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(ek\ tha\ raja.jpeg);
+        background-size:  cover;
+
+    }
+
+    .still4{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(ghost.jpeg);
+        background-size:  cover;
+
+    }
+
+    .still5{
+        background-color: blue;
+        height: 150px;
+        width: 165px;
+        margin-top: 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        background-image: url(aashiki.jpeg);
+        background-size: cover;
+
+    }
+
+    .d{
+        margin-left: 16px;
+        margin-top: 7px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .e{
+        color: rgb(177, 172, 172);
+        margin-top: -10px;
+        margin-left: 16px;
+    }
+
+    /* third row */
+
+    .radio{
+        font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .radio:hover{
+        text-decoration: underline;
+    }
+
+    .radio1{
+        font-size: 18px;
+        margin-left: 1050px;
+        margin-bottom: 5px;
+        color: rgb(177, 172, 172);
+        margin-top: -30px;
+        
+    }
+
+    .radio1:hover{
+        text-decoration: underline;
+    }
+
+    .bca{
+        display: inline-block;
+        height: 250px;
+        width: 185px;
+        position: relative;
+        left: 10px;
+        border-radius: 5px;
+    }
+
+    .bca:hover{
+        background-color: rgb(27, 26, 26);
+    }
+
+   .mca{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(arjit.png);
+    background-size:  contain;
+   }
+
+   .mca1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(diljit.jpg);
+    background-size:  contain;
+   }
+
+   .mca2{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(kumar.jpg);
+    background-size:  cover;
+   }
+
+   .mca3{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(kk.jpg);
+    background-size:  cover;
+   }
+
+
+   .mca4{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(wala.jpg);
+    background-size:  cover;
+   }
+
+   .mca5{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(sp.jpg);
+    background-size:  cover;
+   }
+
+   /* fourth row */
+
+   .field{
+    font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+   }
+
+   .field:hover{
+    text-decoration: underline;
+   }
+
+   .field1{
+    font-size: 18px;
+    margin-left: 1050px;
+    margin-bottom: 5px;
+    color: rgb(177, 172, 172);
+    margin-top: -30px;
+   }
+
+   .field1:hover{
+    text-decoration: underline;
+   }
+
+ .future{
+   
+    display: inline-block;
+    height: 250px;
+    width: 185px;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+ }
+
+ .future:hover{
+    background-color: rgb(27, 26, 26);
+ }
+
+ .chart{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box.png);
+    background-size:  contain;
+ }
+
+ .chart1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box1.png);
+    background-size:  contain;
+ }
+
+ .chart2{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box2.png);
+    background-size:  contain;
+ }
+
+ .chart3{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box3.png);
+    background-size:  contain;
+ }
+
+ .chart4{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box4.png);
+    background-size:  contain;
+ }
+
+ .chart5{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(box5.png);
+    background-size:  contain;
+ }
+
+ /* fifth row */
+
+ .five{
+    font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+   }
+
+   .five:hover{
+    text-decoration: underline;
+   }
+
+   .five1{
+    font-size: 18px;
+    margin-left: 1050px;
+    margin-bottom: 5px;
+    color: rgb(177, 172, 172);
+    margin-top: -30px;
+   }
+
+   .five1:hover{
+    text-decoration: underline;
+   }
+
+   .week{
+    display: inline-block;
+    height: 250px;
+    width: 185px;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+ }
+
+ .week:hover{
+    background-color: rgb(27, 26, 26);
+ }
+
+ .moon{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four.png);
+    background-size:  contain;
+ }
+
+ .moon1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four1.png);
+    background-size:  contain;
+ }
+
+ .moon2{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four2.png);
+    background-size:  contain;
+ }
+
+ .moon3{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four3.png);
+    background-size:  contain;
+ }
+
+ .moon4{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four4.png);
+    background-size:  contain;
+ }
+
+ .moon5{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(four5.png);
+    background-size:  contain;
+ }
+
+ /* sixth row */
+
+ .five{
+    font-size: 25px;
+        margin-left: 16px;
+        margin-bottom: 5px;
+        margin-top: 30px;
+        color: white;
+        font-weight: bold;
+   }
+
+   .five:hover{
+    text-decoration: underline;
+   }
+
+   .five1{
+    font-size: 18px;
+    margin-left: 1050px;
+    margin-bottom: 5px;
+    color: rgb(177, 172, 172);
+    margin-top: -30px;
+   }
+
+   .five1:hover{
+    text-decoration: underline;
+   }
+
+   .bag{
+    display: inline-block;
+    height: 250px;
+    width: 185px;
+    position: relative;
+    left: 10px;
+    border-radius: 5px;
+ }
+
+ .bag:hover{
+    background-color: rgb(27, 26, 26);
+ }
+
+ .note{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five.png);
+    background-size:  contain;
+ }
+
+ .note1{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five1.png);
+    background-size:  contain;
+ }
+
+ .note2{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five2.png);
+    background-size:  contain;
+ }
+
+ .note3{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five3.png);
+    background-size:  contain;
+ }
+
+ .note4{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five4.png);
+    background-size:  contain;
+ }
+
+ .note5{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 18px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(five5.png);
+    background-size:  contain;
+ }
+
+ .eleven{
+    display: flex;
+   
+ }
+
+ .ten{
+    margin-top: 100px;
+    margin-left: 85px;
+ }
+
+ .top{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+ }
+
+ .top1{
+    font-size: 18px;
+    color: rgb(177, 172, 172);
+ }
+
+ .top1:hover{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline;
+ }
+
+ .thirty{
+    margin-top: 120px;
+    margin-left: 85px;
+ }
+
+ .fa-brands{
+    margin-left: 30px;
+ }
+ 
+ .fouty{
+    margin-top: 25px;
+    margin-left: 35px;
+    background-color: rgb(177, 172, 172);
+    height: 0.1px;
+    width: 1080px;
+ }
+
+ .sixty{
+    color: rgb(177, 172, 172);
+    margin-top: 40px;
+    margin-left: 38px;
+ }
